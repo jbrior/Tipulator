@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A201BBD226752C1D0097691A /* SplitBillViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A201BBD126752C1D0097691A /* SplitBillViewController.swift */; };
 		A25FACE52661334700FC9D74 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25FACE42661334700FC9D74 /* AppDelegate.swift */; };
 		A25FACE72661334700FC9D74 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25FACE62661334700FC9D74 /* SceneDelegate.swift */; };
 		A25FACE92661334700FC9D74 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25FACE82661334700FC9D74 /* ViewController.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A201BBD126752C1D0097691A /* SplitBillViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitBillViewController.swift; sourceTree = "<group>"; };
 		A25FACE12661334700FC9D74 /* Tipulator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tipulator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A25FACE42661334700FC9D74 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A25FACE62661334700FC9D74 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 				A25FACE42661334700FC9D74 /* AppDelegate.swift */,
 				A25FACE62661334700FC9D74 /* SceneDelegate.swift */,
 				A25FACE82661334700FC9D74 /* ViewController.swift */,
+				A201BBD126752C1D0097691A /* SplitBillViewController.swift */,
 				A25FACEA2661334700FC9D74 /* Main.storyboard */,
 				A25FACED2661334800FC9D74 /* Assets.xcassets */,
 				A25FACEF2661334800FC9D74 /* LaunchScreen.storyboard */,
@@ -260,6 +263,7 @@
 			files = (
 				A25FACE92661334700FC9D74 /* ViewController.swift in Sources */,
 				A25FACE52661334700FC9D74 /* AppDelegate.swift in Sources */,
+				A201BBD226752C1D0097691A /* SplitBillViewController.swift in Sources */,
 				A25FACE72661334700FC9D74 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -437,16 +441,18 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = PQ99VWJBK3;
 				INFOPLIST_FILE = Tipulator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.5;
 				PRODUCT_BUNDLE_IDENTIFIER = com.brior.us.Tipulator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -456,16 +462,18 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = PQ99VWJBK3;
 				INFOPLIST_FILE = Tipulator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.5;
 				PRODUCT_BUNDLE_IDENTIFIER = com.brior.us.Tipulator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
